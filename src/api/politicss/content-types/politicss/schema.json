@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "politicsses",
+  "info": {
+    "singularName": "politicss",
+    "pluralName": "politicsses",
+    "displayName": "politicss"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}
