@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_title": {
+      "type": "text"
+    },
+    "about_description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category"
+    },
+    "newsletter_title": {
+      "type": "text"
+    },
+    "newsletter_description": {
+      "type": "text"
+    }
+  }
+}
